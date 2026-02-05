@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+table {
+    border: 2px dotted #000000;
+    border-style: dotted;
+    border-collapse: separate; 
+    border-spacing: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #333;
+    border-radius: 15px;
+    height: 50px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+th, .celda-oscura {
+    background-color: #333333;
+    color: white;
+}
+
+.estudiar-azul { background-color: #0055ff; color: white; }
+.estudiar-claro { background-color: #e0f7f7; color: #333; }
+.clases { background-color: #0055ff; color: white; }
+.descansar { background-color: #0055ff; color: white; }
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+tr:hover {
+    background-color: #b3e0e0 !important;
+    transition: background-color 0.3s;
+}
